@@ -1,0 +1,60 @@
+@font-face{
+	font-family: 'aspa';
+	src: url('../fonts/police-cv.otf');
+}
+
+h1{
+
+	text-align: center; 
+	color: salmon;
+	
+
+}
+
+p#bio{
+
+	text-align: center;
+}
+
+body{
+	font-family: "aspa";
+	background-image: url("../img/fond-cv.png");
+	border-left: 100px solid salmon;
+	/* Les bords arrondis du liseré */
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+	height: 768px;
+}
+
+.photo{
+	border: 5px solid salmon;
+	opacity: .8;
+	border-radius: 50%;
+	
+}
+
+header {
+	display: flex;
+}
+
+#titre {
+	flex: 1 80%;
+}
+
+section{
+	display: flex;
+	margin: 2%;
+}
+
+#experiences,
+#competences,
+#formations {
+	flex: 1 33.33%;
+}
+
+section article{
+	margin: 2%;
+	padding: 1%;
+	height: 100px auto;
+}
+
